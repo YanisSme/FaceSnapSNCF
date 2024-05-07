@@ -1,0 +1,41 @@
+.face-snap-card 
+{
+  background-color: #002B28;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: #BBFFBE 2px 2px 15px;
+  
+  img 
+  {
+    width: 100%;
+  }
+  
+  h2 
+  {
+    margin-bottom: 0;
+  }
+
+  p 
+  {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+.snapped 
+{
+  background-color: #BBFFBE;
+  color: #002B28;
+  
+  button 
+  {
+    box-shadow: #002B28 3px 3px 7px;
+    color:darkgreen;
+    &:active 
+    {
+      box-shadow: lightgreen 0 0 5px;
+    }
+  }
+}
